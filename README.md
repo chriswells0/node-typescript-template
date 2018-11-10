@@ -76,13 +76,14 @@ $ git remote add origin git@github.com:<your GitHub username>/<your project name
 $ git push -u origin master
 ```
 3. Create accounts on the following sites and add your new GitHub project to them.  The project is preconfigured, so it should "just work" with these tools.
-* [Travis CI](https://travis-ci.org) for continuous integration.
-* [Coveralls](https://coveralls.io) for unit test coverage verification.
-* [David DM](https://david-dm.org) for dependency management.
+	* [Travis CI](https://travis-ci.org) for continuous integration.
+	* [Coveralls](https://coveralls.io) for unit test coverage verification.
+4. Manually trigger a Travis CI build and wait for it to complete.
+5. Publish your package to NPMJS: `npm publish`
 
 ### Development Workflow
 
-These steps need to be performed every time you make a change:
+These steps need to be performed whenever you make changes:
 
 0. Write awesome code in the `src` directory.
 1. Build (clean, lint, and transpile): `npm run build`
