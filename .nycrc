@@ -1,0 +1,20 @@
+{
+  "branches": 95,
+  "extension": [
+    ".ts",
+    ".tsx"
+  ],
+  "functions": 100,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "lines": 95,
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "statements": 95
+}

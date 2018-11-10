@@ -1,0 +1,62 @@
+{
+  "name": "typescript-template",
+  "version": "0.0.1",
+  "description": "A complete NodeJS project template using TypeScript and following general best practices.",
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "author": {
+    "name": "Chris Wells",
+    "url": "https://chriswells.io"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriswells0/node-typescript-template.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npm run clean; npm run lint && tsc",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "changelog:unreleased": "conventional-changelog -p angular -u",
+    "clean": "rm -r ./.nyc_output; rm -r ./coverage; rm -r ./dist",
+    "clean:all": "npm run clean; rm -r ./node_modules",
+    "cover": "nyc npm run test",
+    "cover:check": "nyc --check-coverage npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "tslint src/**/*.ts test/**/*.ts",
+    "preversion": "npm run build && npm run cover:check",
+    "postversion": "git push && git push --tags",
+    "prepare": "npm run build",
+    "test": "mocha",
+    "version": "npm run build && npm run changelog"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.10.3",
+    "chai": "^4.1.2",
+    "conventional-changelog-cli": "^2.0.5",
+    "coveralls": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "source-map-support": "^0.5.9",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "sitka": "^1.0.1"
+  }
+}
