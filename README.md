@@ -1,4 +1,4 @@
-# NodeJS TypeScript Template
+# Node.js TypeScript Template
 
 [![Package Version][package-image]][package-url]
 [![Open Issues][issues-image]][issues-url]
@@ -8,7 +8,7 @@
 [![Dev Dependencies Status][dev-dependencies-image]][dev-dependencies-url]
 [![Commitizen Friendly][commitizen-image]][commitizen-url]
 
-A complete NodeJS project template using TypeScript and following general best practices.  It allows you to skip the tedious details for the following:
+A complete Node.js project template using TypeScript and following general best practices.  It allows you to skip the tedious details for the following:
 
 * Adding and configuring TypeScript support.
 * Enabling TypeScript linting.
@@ -42,7 +42,7 @@ $ npm install
 
 ## Rebranding
 
-It's a common practice to prefix the source code project name with `node-` to make it clear on GitHub that it's a NodeJS project while omitting that prefix in the NPM project since it's understood on npmjs.com.  Thus, the order of these replacements matter.
+It's a common practice to prefix the source code project name with `node-` to make it clear on GitHub that it's a Node.js project while omitting that prefix in the NPM project since it's understood on npmjs.com.  Thus, the order of these replacements matter.
 
 Be sure to check both [GitHub](https://github.com) and [NPMJS](https://www.npmjs.com) to be sure your project name isn't taken before starting!
 
