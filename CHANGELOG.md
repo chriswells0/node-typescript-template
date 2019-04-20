@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/chriswells0/node-typescript-template/compare/v1.0.2...v1.0.3) (2019-04-20)
+
+
+### Bug Fixes
+
+* Upgrade all dependencies to their latest versions. ([b6f2076](https://github.com/chriswells0/node-typescript-template/commit/b6f2076)), closes [#4](https://github.com/chriswells0/node-typescript-template/issues/4)
+
+
+
 ## [1.0.2](https://github.com/chriswells0/node-typescript-template/compare/v1.0.1...v1.0.2) (2019-02-23)
 
 

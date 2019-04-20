@@ -1,6 +1,6 @@
 {
   "name": "typescript-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A complete Node.js project template using TypeScript and following general best practices.",
   "keywords": [
     "typescript",
