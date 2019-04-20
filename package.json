@@ -40,17 +40,17 @@
   "devDependencies": {
     "@types/chai": "^4.1.6",
     "@types/mocha": "^5.2.6",
-    "@types/node": "^11.9.5",
+    "@types/node": "^11.13.6",
     "chai": "^4.1.2",
     "conventional-changelog-cli": "^2.0.12",
     "coveralls": "^3.0.3",
     "cz-conventional-changelog": "^2.1.0",
-    "mocha": "^6.0.1",
-    "nyc": "^13.3.0",
-    "source-map-support": "^0.5.10",
-    "ts-node": "^8.0.2",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3333"
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0",
+    "source-map-support": "^0.5.12",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
   },
   "config": {
     "commitizen": {
@@ -58,6 +58,6 @@
     }
   },
   "dependencies": {
-    "sitka": "^1.0.3"
+    "sitka": "^1.0.5"
   }
 }
