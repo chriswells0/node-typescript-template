@@ -33,7 +33,7 @@ Once you've enabled CI, test coverage, and dependency reports for your project, 
 Clone this repo into the directory you want to use for your new project, delete the Git history, and then reinit as a fresh Git repo:
 
 ```bash
-$ git clone [package-url] <your project directory>
+$ git clone https://github.com/chriswells0/node-typescript-template.git <your project directory>
 $ cd <your project directory>
 $ rm -rf ./.git/
 $ git init
