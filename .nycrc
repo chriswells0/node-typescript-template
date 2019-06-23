@@ -1,11 +1,13 @@
 {
   "branches": 95,
   "extension": [
+    ".js",
     ".ts",
     ".tsx"
   ],
   "functions": 100,
   "include": [
+    "dist/**/*.js",
     "src/**/*.ts"
   ],
   "lines": 95,

@@ -1,7 +1,7 @@
 'use strict';
 
 import { expect } from 'chai';
-import { Example } from '../src/index';
+import { Example } from '../dist/index';
 
 describe('Example class', () => {
 	it('should create an instance using its constructor', () => {
