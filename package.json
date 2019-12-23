@@ -46,7 +46,7 @@
     "coveralls": "^3.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "mocha": "^6.1.4",
-    "nyc": "^14.0.0",
+    "nyc": "^15.0.0",
     "source-map-support": "^0.5.12",
     "ts-node": "^8.1.0",
     "tslint": "^5.16.0",
