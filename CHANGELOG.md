@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/chriswells0/node-typescript-template/compare/v1.0.3...v1.0.4) (2020-02-23)
+
+
+### Bug Fixes
+
+* Make NPM run scripts compatible with Windows. ([bbe65f8](https://github.com/chriswells0/node-typescript-template/commit/bbe65f8780568eb20dbadc9ac59b08c2b9772d88)), closes [#5](https://github.com/chriswells0/node-typescript-template/issues/5)
+
+
+
 ## [1.0.3](https://github.com/chriswells0/node-typescript-template/compare/v1.0.2...v1.0.3) (2019-04-20)
 
 
