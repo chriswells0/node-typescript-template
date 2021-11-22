@@ -10,7 +10,7 @@ describe('Example class', () => {
 	});
 	it('should return whatever is passed to exampleMethod()', () => {
 		const example: Example = new Example();
-		const param: string = 'This is my param.';
+		const param = 'This is my param.';
 		const returnValue: string = example.exampleMethod(param);
 		expect(returnValue).to.equal(param, 'returns the value passed as a parameter');
 	});
