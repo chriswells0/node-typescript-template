@@ -34,7 +34,8 @@
     "prepare": "npm run build",
     "test": "mocha",
     "upgrade": "npx npm-check -u",
-    "version": "npm run build && npm run changelog:update"
+    "version": "npm run build && npm run changelog:update",
+    "serve": "nodemon ./src/index.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.3.5",
@@ -47,6 +48,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.44.0",
     "mocha": "^10.2.0",
+    "nodemon": "^2.0.15",
     "nyc": "^15.1.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.1",
