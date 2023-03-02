@@ -1,11 +1,10 @@
 # Node.js TypeScript Template
 
 [![Package Version][package-image]][package-url]
-[![Open Issues][issues-image]][issues-url]
+[![Dependencies Status][dependencies-image]][dependencies-url]
 [![Build Status][build-image]][build-url]
 [![Coverage Status][coverage-image]][coverage-url]
-[![Dependencies Status][dependencies-image]][dependencies-url]
-[![Dev Dependencies Status][dev-dependencies-image]][dev-dependencies-url]
+[![Open Issues][issues-image]][issues-url]
 [![Commitizen Friendly][commitizen-image]][commitizen-url]
 
 A complete Node.js project template using TypeScript and following general best practices.  It allows you to skip the tedious details for the following:
@@ -108,18 +107,16 @@ Follow these steps to update your NPM package:
 
 This section is here as a reminder for you to explain to your users how to contribute to the projects you create from this template.
 
-[build-image]: https://img.shields.io/github/actions/workflow/status/chriswells0/node-sitka/ci-build.yaml?branch=master
-[build-url]: https://github.com/chriswells0/node-sitka/actions/workflows/ci-build.yaml
-[project-url]: https://github.com/chriswells0/node-typescript-template
-[package-image]: https://badge.fury.io/js/typescript-template.svg
-[package-url]: https://badge.fury.io/js/typescript-template
-[issues-image]: https://img.shields.io/github/issues/chriswells0/node-typescript-template.svg?style=popout
-[issues-url]: https://github.com/chriswells0/node-typescript-template/issues
-[coverage-image]: https://coveralls.io/repos/github/chriswells0/node-typescript-template/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/chriswells0/node-typescript-template?branch=master
-[dependencies-image]: https://david-dm.org/chriswells0/node-typescript-template/status.svg
-[dependencies-url]: https://david-dm.org/chriswells0/node-typescript-template
-[dev-dependencies-image]: https://david-dm.org/chriswells0/node-typescript-template/dev-status.svg
-[dev-dependencies-url]: https://david-dm.org/chriswells0/node-typescript-template?type=dev
+[build-image]: https://img.shields.io/github/actions/workflow/status/chriswells0/node-typescript-template/ci-build.yaml?branch=master
+[build-url]: https://github.com/chriswells0/node-typescript-template/actions/workflows/ci-build.yaml
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli
+[coverage-image]: https://coveralls.io/repos/github/chriswells0/node-typescript-template/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/chriswells0/node-typescript-template?branch=master
+[dependencies-image]: https://img.shields.io/librariesio/release/npm/typescript-template
+[dependencies-url]: https://www.npmjs.com/package/typescript-template?activeTab=dependencies
+[issues-image]: https://img.shields.io/github/issues/chriswells0/node-typescript-template.svg?style=popout
+[issues-url]: https://github.com/chriswells0/node-typescript-template/issues
+[package-image]: https://img.shields.io/npm/v/typescript-template
+[package-url]: https://www.npmjs.com/package/typescript-template
+[project-url]: https://github.com/chriswells0/node-typescript-template
