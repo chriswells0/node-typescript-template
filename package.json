@@ -37,20 +37,20 @@
     "version": "npm run build && npm run changelog:update"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.6",
+    "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^18.7.18",
-    "@typescript-eslint/eslint-plugin": "^5.3.0",
-    "@typescript-eslint/parser": "^5.3.0",
-    "chai": "^4.1.2",
-    "conventional-changelog-cli": "^2.0.12",
-    "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^8.2.0",
-    "mocha": "^10.0.0",
-    "nyc": "^15.0.0",
-    "source-map-support": "^0.5.12",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.0.3"
+    "@types/node": "^18.14.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "chai": "^4.3.7",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.35.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
   },
   "config": {
     "commitizen": {
@@ -58,6 +58,6 @@
     }
   },
   "dependencies": {
-    "sitka": "^1.0.5"
+    "sitka": "^1.0.6"
   }
 }
