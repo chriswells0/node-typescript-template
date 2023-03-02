@@ -6,7 +6,7 @@ import { Example } from '../dist/index';
 describe('Example class', () => {
 	it('should create an instance using its constructor', () => {
 		const example: Example = new Example();
-		expect(example, 'example should exist').to.exist; // tslint:disable-line:no-unused-expression
+		expect(example, 'example should exist').to.exist;
 	});
 	it('should return whatever is passed to exampleMethod()', () => {
 		const example: Example = new Example();
