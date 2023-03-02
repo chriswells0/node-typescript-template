@@ -44,7 +44,7 @@ $ npm install
 
 It's a common practice to prefix the source code project name with `node-` to make it clear on GitHub that it's a Node.js project while omitting that prefix in the NPM project since it's understood on npmjs.com.  Thus, the order of these replacements matter.
 
-Be sure to check both [GitHub](https://github.com) and [NPMJS](https://www.npmjs.com) to be sure your project name isn't taken before starting!
+Be sure to check both [GitHub](https://github.com) and [NPMJS](https://www.npmjs.com) to verify that your project name isn't taken before starting!
 
 Use exact searches to perform the following replacements throughout this project for the most efficient rebranding process:
 
@@ -108,13 +108,13 @@ Follow these steps to update your NPM package:
 
 This section is here as a reminder for you to explain to your users how to contribute to the projects you create from this template.
 
+[build-image]: https://img.shields.io/github/actions/workflow/status/chriswells0/node-sitka/ci-build.yaml?branch=master
+[build-url]: https://github.com/chriswells0/node-sitka/actions/workflows/ci-build.yaml
 [project-url]: https://github.com/chriswells0/node-typescript-template
 [package-image]: https://badge.fury.io/js/typescript-template.svg
 [package-url]: https://badge.fury.io/js/typescript-template
 [issues-image]: https://img.shields.io/github/issues/chriswells0/node-typescript-template.svg?style=popout
 [issues-url]: https://github.com/chriswells0/node-typescript-template/issues
-[build-image]: https://travis-ci.org/chriswells0/node-typescript-template.svg?branch=master
-[build-url]: https://travis-ci.org/chriswells0/node-typescript-template
 [coverage-image]: https://coveralls.io/repos/github/chriswells0/node-typescript-template/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/chriswells0/node-typescript-template?branch=master
 [dependencies-image]: https://david-dm.org/chriswells0/node-typescript-template/status.svg
