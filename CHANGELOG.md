@@ -1,3 +1,7 @@
+## [1.0.5](https://github.com/chriswells0/node-typescript-template/compare/v1.0.4...v1.0.5) (2023-03-02)
+
+
+
 ## [1.0.4](https://github.com/chriswells0/node-typescript-template/compare/v1.0.3...v1.0.4) (2020-02-23)
 
 
