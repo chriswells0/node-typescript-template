@@ -18,8 +18,8 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge for Dependabot PRs
-        # Changed from semver-patch to semver-minor. -- cwells
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-minor' }}
+        # Changed from only semver-patch to anything other than semver-major. -- cwells
+        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-major' }}
         run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
