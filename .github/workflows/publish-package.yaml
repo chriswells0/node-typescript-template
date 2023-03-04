@@ -1,8 +1,9 @@
 name: Publish Package to npmjs.com
 
 on:
-  release:
-    types: [ created, published, released ]
+  push:
+    branches: [ master ]
+    tags: [ "v[0-9]+.[0-9]+.[0-9]+" ]
 
 jobs:
 
