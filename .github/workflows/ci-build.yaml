@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 19.x]
+        node-version: [ 16.x, 18.x, 19.x ]
 
     steps:
       - name: Check out code
@@ -29,4 +29,4 @@ jobs:
       - name: Report the results to Coveralls
         uses: coverallsapp/github-action@master
         with:
-            github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
