@@ -82,6 +82,11 @@ $ git push -u origin master
 
 ### Development Workflow
 
+#### Hot reload
+Run `npm run serve` to start your development workflow with hot reload.
+
+#### Build, test, deploy
+
 These steps need to be performed whenever you make changes:
 
 0. Write awesome code in the `src` directory.
