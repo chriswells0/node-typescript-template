@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/chriswells0/node-typescript-template/compare/v1.0.5...v1.0.6) (2023-07-08)
+
+
+### Bug Fixes
+
+* make "clean" script command work cross-platform ([43243c4](https://github.com/chriswells0/node-typescript-template/commit/43243c4707342f332bf5819b31e7f812978fd7c5)), closes [#356](https://github.com/chriswells0/node-typescript-template/issues/356)
+
+
+
 ## [1.0.5](https://github.com/chriswells0/node-typescript-template/compare/v1.0.4...v1.0.5) (2023-03-02)
 
 
