@@ -24,7 +24,7 @@
     "build": "npm run clean && npm run lint && tsc",
     "changelog": "conventional-changelog -p angular -u",
     "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "clean": "(rm -r ./.nyc_output || true) && (rm -r ./coverage || true) && (rm -r ./dist || true)",
+    "clean": "node -e \"var { rmdirSync, existsSync } = require('fs'), path = require('path'); ['./.nyc_output', './coverage', './dist'].forEach(fPath => {if (existsSync(path.join(__dirname, fPath))) rmdirSync(path.join(__dirname, fPath), { recursive: true })}); process.exit(0);\"",
     "clean:all": "npm run clean && (rm -r ./node_modules || true)",
     "cover": "nyc npm run test",
     "cover:check": "nyc --check-coverage --reporter=lcov npm run test",
@@ -32,10 +32,10 @@
     "preversion": "npm run build && npm run cover:check",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build",
+    "serve": "nodemon ./src/index.ts",
     "test": "mocha",
     "upgrade": "npx npm-check -u",
-    "version": "npm run build && npm run changelog:update",
-    "serve": "nodemon ./src/index.ts"
+    "version": "npm run build && npm run changelog:update"
   },
   "devDependencies": {
     "@types/chai": "^4.3.5",
