@@ -106,7 +106,8 @@ Follow these steps to update your NPM package:
 	* Specify major, minor, or patch and let NPM bump it: `npm version [major | minor | patch] -m "chore(release): Bump version to %s."`
 	* Explicitly provide the version number such as 1.0.0: `npm version 1.0.0 -m "chore(release): Bump version to %s."`
 3. The push to GitHub is automated, so wait for the CI builds to finish.
-4. Publish the new version to NPMJS: `npm publish`
+4. Publishing the new version to NPMJS is also automated, but you must create a secret named `NPM_TOKEN` on your project.
+5. Manually create a new release in GitHub based on the automatically created tag.
 
 ## Contributing
 
