@@ -47,7 +47,7 @@
     "conventional-changelog-cli": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.44.0",
-    "mocha": "^10.2.0",
+    "mocha": "^11.0.1",
     "nodemon": "^3.0.1",
     "nyc": "^15.1.0",
     "source-map-support": "^0.5.21",
